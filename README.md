@@ -3,6 +3,7 @@
 An ordinary password generator project
 
 ### TODO:
+
 	* [ ] ASCII random symbol gen
 	* [ ] Exclude junk sumbols(tab, spaces, etc...) 
 	* [ ] Gen a string with n length
