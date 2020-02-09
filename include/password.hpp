@@ -9,6 +9,6 @@ private:
 	std::vector<Symbol> _password;
 	u_int 				_length;
 public:
-	Password(u_int length);
+	explicit Password(u_int length);
 	void print();
 };
