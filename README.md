@@ -4,8 +4,9 @@ An ordinary password generator project
 
 ### TODO:
 
-* [ ] ASCII random symbol gen
-* [ ] Exclude junk sumbols(tab, spaces, etc...) 
-* [ ] Gen a string with n length
+* [x] ASCII random symbol gen
+* [x] Exclude junk sumbols(tab, spaces, etc...) 
+* [x] Gen a string with n length
 * [ ] Checks for words/long number 
-* [ ] Command line flags
+* [x] Command line flags
+* [ ] Style for password (blocks by 4,5... symbols) ( 1245-1231-1231 )
