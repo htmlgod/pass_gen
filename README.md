@@ -10,3 +10,5 @@ An ordinary password generator project
 * [ ] Checks for words/long number 
 * [x] Command line flags
 * [ ] Style for password (blocks by 4,5... symbols) ( 1245-1231-1231 )
+* [ ] File output 
+* [ ] Gen password by some data (name, birthday, etc) 
