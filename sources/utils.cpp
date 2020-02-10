@@ -19,7 +19,7 @@ void Passgen::init(const int& argc, const char* argv[]) {
 	}
 	if (vm.count("help")) {
         std::cout << desc << "\n";
-    }
+    	}
 	if (vm.count("length")) {
 		default_length = vm["length"].as<int>();
 	} 
