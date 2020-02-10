@@ -5,14 +5,14 @@ void Passgen::init(const int& argc, const char* argv[]) {
 	int default_count  = 1;
 
 	po::options_description desc("pass_gen options");
-    desc.add_options()
+    	desc.add_options()
             ("help,h", "Help screen")
             ("length,l", po::value<int>(), "Set password's length (default - 8)")
             ("count,c", po::value<int>(), "Set amount of passwords generated (default - 1)")
-			("style,s", "Set style of a password(default, 5block,4block)");
-    po::variables_map vm;
-    po::store(po::parse_command_line(argc,argv,desc), vm);
-    po::notify(vm);
+	    ("style,s", "Set style of a password(default, 5block,4block)");
+    	po::variables_map vm;
+    	po::store(po::parse_command_line(argc,argv,desc), vm);
+    	po::notify(vm);
 
 	if (argc == 1) {
         std::cout << desc << "\n";
