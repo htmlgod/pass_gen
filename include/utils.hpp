@@ -7,7 +7,6 @@
 namespace po = boost::program_options;
 
 namespace Passgen {
-	void init(int argc, const char* argv[]);
-
+	void init(const int& argc, const char* argv[]);
 }
 

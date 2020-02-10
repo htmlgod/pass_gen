@@ -1,6 +1,6 @@
 #include <utils.hpp>
 
-void Passgen::init(int argc, const char* argv[]) {
+void Passgen::init(const int& argc, const char* argv[]) {
 	int default_length = 8;
 	int default_count  = 1;
 
@@ -28,7 +28,8 @@ void Passgen::init(int argc, const char* argv[]) {
 	}
 	
 	for (int i = 0; i < default_count; i++) {
-		Password(default_length).print();
+		if (argc != 1)
+	        Password(default_length).print();
 	}
 }
 

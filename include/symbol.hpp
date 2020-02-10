@@ -8,11 +8,8 @@ class Symbol {
 private:
 	u_int _code;
 	char  _symbol;
-	u_int generateCode();
+	static u_int generateCode();
 public:
 	Symbol();
-	Symbol generateSymbol();
 	[[nodiscard]] char getChar();
 };
-
-

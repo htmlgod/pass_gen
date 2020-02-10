@@ -15,6 +15,6 @@ Symbol::Symbol() {
 	this->_code = generateCode();
 	this->_symbol = static_cast<char>(_code);
 }
-char Symbol::getChar() {
+[[nodiscard]] char Symbol::getChar() {
 	return this->_symbol;
 }
